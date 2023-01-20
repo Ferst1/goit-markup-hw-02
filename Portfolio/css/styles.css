@@ -1,3 +1,152 @@
-.nav {
-    color: #F4F4FD #4D5AE5 #FFFFFF;
+:root {
+    --accent-color: #404BBF;
+}
+
+.body {
+    background-color: #FFFFFF;
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
+
+
+
+.logo {
+    color:
+        #000000;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #4D5AE5;
+}
+
+.log {
+    color: #4D5AE5;
+}
+
+/* ссылки */
+
+.contakt-nav {
+
+    text-decoration: none;
+    list-style: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+}
+
+.contakt {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+
+ul {
+    list-style: none;
+}
+
+.contakt-nav:hover,
+.contakt-nav:focus {
+    color: var(--accent-color);
+}
+
+.contakt:hover,
+.contakt:focus {
+    color: var(--accent-color);
+}
+
+a {
+    list-style: none;
+}
+
+.site-button {
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.site-button :hover,
+.site-button :focus {
+    background-color: #E7E9FC;
+}
+
+.site-button:active {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #2E2F42;
+}
+
+.paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+
+.footer {
+    background-color: #2E2F42;
+    position: absolute;
+
+}
+
+.logo-f {
+    text-decoration: none;
+    list-style: none;
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer-par {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
