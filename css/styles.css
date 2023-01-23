@@ -191,6 +191,14 @@ a {
     line-height: 24px;
 }
 
+.logo-f:hover,
+.logo-f:focus {
+
+    color: #4D5AE5;
+}
+
+
+
 .footer-par {
 
     font-family: 'Roboto';
