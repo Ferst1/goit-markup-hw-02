@@ -1,16 +1,14 @@
 :root {
-    --accent-color: #404BBF;
+    --paragraf-text-color: #434455;
+    --accent-color: #FFFFFF;
+    --accent-focus: #4D5AE5;
 }
 
-.hero-button {
-    color: #FFFFFF;
-    position: absolute;
-    width: 170px;
-    height: 51px;
-    left: 635px;
-    top: 432px;
 
-    background: #4D5AE5;
+
+.hero-button {
+    color: var(--accent-color);
+    background: var(--accent-focus);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -18,10 +16,7 @@
 }
 
 .hero {
-    width: 1440px;
-    height: 603px;
-    left: 0px;
-    top: 72px;
+
     background: #2E2F42;
 }
 
@@ -31,24 +26,21 @@
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--accent-color);
+    ;
 }
 
 .body {
-    background-color: #FFFFFF;
+    background-color: var(--accent-color);
+    ;
     color: #2E2F42;
     font-family: 'Roboto SemiBold', sans-serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
 }
-
-
 
 .logo {
     color:
@@ -63,11 +55,11 @@
 
 .logo:hover,
 .logo:focus {
-    color: #4D5AE5;
+    color: var(--accent-focus);
 }
 
 .log {
-    color: #4D5AE5;
+    color: var(--accent-focus);
 }
 
 .logo-f {
@@ -82,7 +74,7 @@
 }
 
 .logo-f:active {
-    color: #4D5AE5
+    color: var(--accent-focus)
 }
 
 .link {
@@ -101,70 +93,75 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--paragraf-text-color);
+}
+
+.contakt-nav:hover,
+.contakt-nav:focus,
+.contakt-nav.current {
+    color: var(--accent-focus);
 }
 
 .contakt-link:hover,
-.contakt-nav:focus {
-
-    color: #4D5AE5;
+.contakt-link:focus,
+.contakt-link:active {
+    color: var(--accent-focus);
 }
 
-.contakt-nav {
+.contakt-nav link {
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
-
 }
 
 ul {
     list-style: none;
 }
 
-.contakt-nav:hover,
-.contakt-nav:focus,
-.contakt-nav:active {
-    color: var(--accent-color);
-}
-
-.contakt:hover,
-.contakt:focus {
-    color: var(--accent-color);
-}
-
-
 
 .site-button {
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    color: #4D5AE5;
+    color: var(--accent-focus);
     cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .site-button:hover,
 .site-button:focus {
     color: #F4F4FD;
-    background-color: #4D5AE5;
+    background-color: var(--accent-focus);
 }
 
 .site-button:active {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--accent-focus);
+    color: var(--accent-color);
 }
 
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1.2;
     color: #2E2F42;
+    font-style: normal;
+}
+
+.title-p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.1;
 }
 
 .paragraf {
@@ -172,7 +169,7 @@ ul {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--paragraf-text-color);
 }
 
 .footer {
@@ -194,7 +191,7 @@ ul {
 .logo-f:hover,
 .logo-f:focus {
 
-    color: #4D5AE5;
+    color: var(--accent-focus);
 }
 
 .footer-par {
