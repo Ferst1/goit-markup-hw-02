@@ -26,26 +26,24 @@
 }
 
 .hero-h {
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
 
 .body {
     background-color: #FFFFFF;
     color: #2E2F42;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto SemiBold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 
 }
@@ -60,7 +58,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
 
 .logo:hover,
@@ -80,41 +78,49 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
 
 .logo-f:active {
     color: #4D5AE5
 }
 
-/* ссылки */
-
-.contakt-nav {
-
+.link {
     text-decoration: none;
     list-style: none;
-
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+    font-style: normal;
 
 }
 
-.contakt {
+.contakt-link {
     text-decoration: none;
+    list-style: none;
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
+.contakt-link:hover,
+.contakt-nav:focus {
+
+    color: #4D5AE5;
+}
+
+.contakt-nav {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.02em;
 
-    color: #434455;
+    color: #2E2F42;
+
 }
 
 ul {
@@ -122,7 +128,8 @@ ul {
 }
 
 .contakt-nav:hover,
-.contakt-nav:focus {
+.contakt-nav:focus,
+.contakt-nav:active {
     color: var(--accent-color);
 }
 
@@ -131,9 +138,7 @@ ul {
     color: var(--accent-color);
 }
 
-a {
-    list-style: none;
-}
+
 
 .site-button {
     background: #F4F4FD;
@@ -143,9 +148,10 @@ a {
     cursor: pointer;
 }
 
-.site-button :hover,
-.site-button :focus {
-    background-color: #E7E9FC;
+.site-button:hover,
+.site-button:focus {
+    color: #F4F4FD;
+    background-color: #4D5AE5;
 }
 
 .site-button:active {
@@ -155,22 +161,19 @@ a {
 
 .title {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
-
+    line-height: 1.2;
     color: #2E2F42;
 }
 
 .paragraf {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-
     color: #434455;
 }
 
@@ -184,11 +187,10 @@ a {
     text-decoration: none;
     list-style: none;
     color: #F4F4FD;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
 
 .logo-f:hover,
@@ -197,15 +199,12 @@ a {
     color: #4D5AE5;
 }
 
-
-
 .footer-par {
 
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
