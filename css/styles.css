@@ -18,6 +18,14 @@
 
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 .hero-button {
     color: var(--accent-color);
     background: var(--accent-focus);
@@ -100,16 +108,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--tittle-body-color);
-}
-
-a {
-    text-decoration: none;
-    list-style: none;
-}
-
-ul {
-    ext-decoration: none;
-    list-style: none;
 }
 
 .site-button {
