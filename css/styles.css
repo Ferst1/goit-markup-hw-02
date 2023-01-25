@@ -54,7 +54,7 @@
     ;
 }
 
-.logo {
+.logo-link {
     color: var(--logo-accent);
     font-weight: 800;
     font-size: 18px;
@@ -62,8 +62,8 @@
     font-family: 'Raleway'
 }
 
-.logo:hover,
-.logo:focus {
+.logo-link:hover,
+.logo-link:focus {
     color: var(--accent-focus);
 }
 
@@ -71,7 +71,7 @@
     color: var(--accent-focus);
 }
 
-.logo-f {
+.logo-f link {
     color: var(--logo-accent);
     font-weight: 800;
     font-size: 18px;
@@ -171,11 +171,12 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    font-family: 'Raleway'
 }
+
 
 .logo-f:hover,
 .logo-f:focus {
-
     color: var(--accent-focus);
 }
 
